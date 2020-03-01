@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 590px;
+    height: 443px;
+}
+
+.menu{
+    display: inline-flex;
+}
+
+.menu img{
+    height: 35px;
+    margin: 20px 0 0 110px;
+    cursor: pointer;
+}
+
+.menu button{
+    padding: 5px 20px;
+    background: #ff4d73;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.menu button .fa{
+    margin-right: 10px;
+}
+
+.banner-text{
+    width: 150%;
+    color: white;
+    margin: 220px;
+    margin-top: 220px;
+    text-align: center;
+}
+
+.banner-text h2{
+    font-size: 60px;
+}
+
+.banner-text p{
+    font-size: 20px;
+}
+
+.banner-text a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    margin-top: 50px;
+    background: #ff4d73;
+    margin-left: 330px;
+    transition: .5s;
+}
+
+.banner-text a:hover{
+    background: transparent;
+}
+
+
+.sojol{
+    height: 600px;
+    width: 1350px;
+    background-color:yellow;
+    margin-top: 300px;
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+h1::after{
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 6px;
+    width: 200px;
+    margin: 8px auto;
+    
+}
+
+.services .icon{
+    font-size: 35px;
+    margin: 10px auto;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ff4d73;
+    border-radius: 50%;
+    color: #ff4d73;
+}
+
+.services p{
+    font-size: 15px;
+    margin-top: 0px;
+    color: black;
+    padding: 10px;
+}
+
+.services span{
+    color: #ff4d73;
+    transition: .5s;
+}
+
+.services .col-md-3:hover{
+    background: #ff4d73;
+    cursor: pointer;
+    color: white;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+.services .col-md-3:hover .icon{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.services .col-md-3:hover p{
+    color: #fff;
+}
+
+.services .col-md-3:hover span{
+    color: #fff;
+}
+
+.feature h2{
+    margin-top: 80px;
+}
+
+.feature h2::after{
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 4px;
+    width: 180px;
+    margin: 8px auto;
+    position: absolute;
+    left: 13px;
+     
+}
+
+.feature ul{
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+    
+}
+
+.feature ul li{
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+
+.feature ul li::after{
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #ff4d73;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+.feature img{
+    margin-top: 130px;
+}
+
+.footer h1{
+    padding-top: 50px;
+}
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+::placeholder{
+    font-size: 12px;
+}
+
+.contact-form button{
+    border: none !important;
+    background: #ff4d73 !important;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.contact-info .follow{
+    background-color: white;
+    padding: 8px;
+    margin: 15px;
+}
+
+
+.contact-info .fa{
+    margin: 10px;
+    font-size: 20px;
+    color: #ff4d73;
+    font-weight: bold;
+    padding-right: 20px;
+    
+}
+
+
+.contact-info span{
+    font-size: 16px;
+}
+
+
+.copyright{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.fa-heart-o{
+    color: red;
+    font-size: 20px;
+}
+
+
+.footer hr{
+    margin-top: 20px;
+    background: #ff4d73;
+}
